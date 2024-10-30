@@ -10,5 +10,6 @@ define
    % CALL PROGRAM
    {System.showInfo "Main program execution:\n"}
    {Task1.mainTask}
+   {Task2.mainTask}
    {Exit 0}
 end
