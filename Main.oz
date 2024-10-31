@@ -11,5 +11,6 @@ define
    {System.showInfo "Main program execution:\n"}
    {Task1.mainTask}
    {Task2.mainTask}
+   {Task3.mainTask}
    {Exit 0}
 end
