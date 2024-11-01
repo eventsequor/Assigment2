@@ -6,7 +6,7 @@ export
     MainTask
 
 define    
-
+    % Quick Sort Mozart Oz - functional way
     fun {QuickSort L}
         case L of X|L2 then Left Right LAppend in
             LAppend = fun {$ Xs Ys} case Xs of X|Xr then X|{LAppend Xr Ys} [] nil then Ys end end
@@ -25,7 +25,7 @@ define
 
     proc {MainTask}        
         local 
-            ListEder = [167 3 1 4 1 5 9 2 6 5 10 120 ~1 ~7 14 99 88 ~238]
+            ListEder = [10 167 3 1 4 1 5 9 2 6 5 10 120 ~1 ~7 14 99 88 ~238]
         in
             {Show "\n============================"}
             {Show "========== Task 3 =========="}
